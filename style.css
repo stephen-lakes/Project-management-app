@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* BUTTON STYLES */
+.btn {
+    text-align: center;
+    padding: 0.4rem 1.3rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF7917;
+    border: 1px solid #FF7917;   
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #16202A;
+    border: 1px solid #FF7917;   
+}
+
+.btn-outline {
+    color: #212529;
+    border: 1px solid #6C757D;
+}
+
+header{
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main {
+    padding: 1rem 1rem 4rem 1rem;
+    background-color: #fff;
+}
+
+.text-primary-color {
+    color: #FF7917;
+}
+
+.text-xl {
+    padding-bottom: 1rem;
+}
+
+.hero__text__container p {
+    padding-bottom: 2rem;
+}
+
+.hero__CTA__group {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.innovation {
+    color: #FF7917;
+    font-weight: 300;
+}
+
+.teamwork {
+    color: #50b5f0;
+    font-weight: 300;
+}
+
+.taskmanagement {
+    color: #6772E5;
+    font-weight: 300;
+}
+
+.feature {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    background-color: #dee7ee71;
+}
+
+.feature h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #212529;
+}
+
+.feature__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #6c757d38;
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.feature__card p {
+    padding: 1rem;
+}
+
+.feature__card__container {
+    margin-bottom: 3rem;
+}
+
+.timemanagement {
+    margin-bottom: 3rem;
+}
+
+.review__container {
+    border: 1px dashed #6c757d38;
+    padding: 20px;
+}
+
+.review {
+    margin-bottom: 1rem;
+}
+
+.plan {
+    background-image: url('Assets/Images/Arc.png');
+    background-size: cover;
+    background-position: center 0;
+    background-color: #dee7ee71;
+}
+
+.plan h3 {
+    text-align: center;
+    padding: 28px 0;
+}
+
+.plan__container {
+    padding: 0 20px;
+
+}
+
+.plan__card {
+    border: 1px solid #6c757d38;
+    margin-bottom: 0.5rem;
+    padding: 0 8px;
+}
+
+.plan__card h4 {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.card__body a {
+    margin-bottom: 20px;
+}
+
+.plan__description {
+    color: #6C757D;
+    margin-bottom: 20px;
+}
+
+.enterprise {
+    background-color: #16202A;
+    color: #fff;
+}
+
+.free h4,
+.standard h4 {
+    color: #212529;
+}
+
+.link {
+    text-decoration: underline;
+    color: #50b5f0;
+}
+
+.card__footer {
+    margin: 20px 0;
+}
+
+.whats-included {
+    color: #212529;
+    padding-bottom: 10px;
+}
+
+.enterprise .card__footer .whats-included {
+    color: #fff;
+}
+
+.subscribe {
+}
+
+.form-group input[type='email'] {
+    padding: 8px;
+    border-radius: 6px;
+    height: 30px;
+    border: 2px solid #6C757D;
+}
+
