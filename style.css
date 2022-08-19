@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+*,*::before,::after {
+    box-sizing: border-box;
+}
+
 img {
     max-width: 100%;
 }
@@ -43,6 +47,25 @@ header{
     display: flex;
     justify-content: space-between;
 
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: 50%/100% 100% no-repeat;
+    background-image: url('Assets/Images/bars.svg');
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.40625rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 
 main {
@@ -189,6 +212,17 @@ main {
 
 .enterprise .card__footer .whats-included {
     color: #fff;
+}
+
+.payments-options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.payments-options img {
+    max-width: ;
 }
 
 .subscribe {
