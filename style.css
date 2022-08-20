@@ -295,11 +295,18 @@ main {
 }
 
 .subscribe {
+    padding: 1rem;
+    
 }
 
-.subscribe-img-container {
+.subscribe__item__container {
     background-image: url('Assets/Images/Subscribebg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+.subscribe-img-container {}
 
 .form-group input[type='email'] {
     padding: 8px;
