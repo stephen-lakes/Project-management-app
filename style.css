@@ -181,6 +181,7 @@ main {
     border: 1px solid #6c757d38;
     margin-bottom: 0.5rem;
     padding: 0 8px;
+    border-radius: 0.125rem;
 }
 
 .plan__card h4 {
@@ -261,9 +262,36 @@ main {
 
 }
 
+.try-gail > h3 {
+    margin-bottom: 0.5rem;
+}
+
+.try-gail > p {
+    margin-bottom: 2rem;
+}
+
+.try-gail a {
+    margin: 0 0.25rem;
+}
+
 .dark {
     background-color: #16202A;
     text-align: center;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.FAQ {
+    padding: 2rem 1rem;
+
+}
+.FAQ__left h1 {
+    margin-bottom: 2rem;
+}
+
+
+.FAQ__left p {
+    margin-bottom: 2rem;
 }
 
 .subscribe {
