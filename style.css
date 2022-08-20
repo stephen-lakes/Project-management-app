@@ -1,3 +1,10 @@
+/* VARIABLES */
+:root {
+    --primary-color: #FF7917;
+    --background-color-dark: #16202A;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -32,12 +39,12 @@ body {
 }
 
 .btn-primary {
-    background-color: #FF7917;
-    border: 1px solid #FF7917;   
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);   
 }
 .btn-secondary {
     background-color: #16202A;
-    border: 1px solid #FF7917;   
+    border: 1px solid var(--primary-color);   
 }
 
 .btn-outline {
@@ -89,7 +96,7 @@ main {
 }
 
 .text-primary-color {
-    color: #FF7917;
+    color: var(--primary-color);
 }
 
 .text-xl {
@@ -335,5 +342,5 @@ main {
 }
 
 .footer {
-
+    background-color: #16202A;
 }
