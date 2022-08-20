@@ -297,6 +297,10 @@ main {
 .subscribe {
 }
 
+.subscribe-img-container {
+    background-image: url('Assets/Images/Subscribebg.svg');
+}
+
 .form-group input[type='email'] {
     padding: 8px;
     border-radius: 6px;
