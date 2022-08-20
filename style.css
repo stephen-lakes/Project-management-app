@@ -295,23 +295,45 @@ main {
 }
 
 .subscribe {
-    padding: 1rem;
-    
+    padding: 2rem 0;
+    color: #fff;
+    text-align: center;
 }
 
 .subscribe__item__container {
     background-image: url('Assets/Images/Subscribebg.svg');
+    border-radius: 0.125rem;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
 }
 
-.subscribe-img-container {}
+.subscribe-img-container img {
+    position: relative;
+    top: -2rem;
+}
 
-.form-group input[type='email'] {
-    padding: 8px;
-    border-radius: 6px;
+.form-container {
+    padding: 1rem;
+}
+
+.form-container p {
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    border: 0;
+    padding: 1rem;
+    border-radius: 0.25rem;
     height: 30px;
-    border: 2px solid #6C757D;
+    width: 98%;
+    margin: 0.25rem 0;
 }
 
+.footer {
+
+}
