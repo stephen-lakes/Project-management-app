@@ -116,7 +116,11 @@ main {
 .hero__CTA__group {
     width: 100%;
     display: flex;
-    gap: 0.5rem;
+    /* gap: 0.5rem; */
+}
+
+.hero__CTA__group a.btn-primary {
+    margin-right: 0.5rem;
 }
 
 .innovation {
