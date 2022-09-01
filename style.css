@@ -39,7 +39,7 @@ body {
 .btn {
     color: #fff;
     text-align: center;
-    padding: 0.5rem 1.3rem;
+    padding: 0.2rem 1rem;
     border-radius: 4px;
     display: inline-block;
 }
@@ -65,10 +65,11 @@ body {
 /* HEADER */
 header{
     padding: 0.5rem 1rem;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.2);
 }
 
 .logo__container {
@@ -106,7 +107,18 @@ header{
 .nav-container {
     display: none;
     width: 100%;
-    background-color: #50b5f0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: #16202A;
+}
+
+nav ul li a.btn-secondary {
+    border: none;
 }
 
 
