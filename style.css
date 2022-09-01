@@ -20,6 +20,7 @@ img {
 /* VARIABLES */
 :root {
     --primary-color: #FF7917;
+    --primary-color-hover: #eb6e15;
     --background-color-dark: #16202A;
 }
 
@@ -55,6 +56,10 @@ body {
 .btn-outline {
     color: #6C757D;
     border: 1px solid #6C757D;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
 }
 
 /* HEADER */
