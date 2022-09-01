@@ -397,7 +397,7 @@ main {
 footer {
     background-color: var(--background-color-dark);
     color: #fff;
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 0 1rem;
 }
 
 .footer__top {
@@ -406,5 +406,26 @@ footer {
 
 .footer__top p {
     margin-bottom: 2rem;
+}
+
+.footer__bottom ul li a {
+    color: #fff;
+}
+
+.footer__bottom h3 {
+    margin-top: 1rem;
+}
+
+.footer__bottom ul li {
+    padding: 0.3rem 0;
+}
+
+.footer__bottom__logo__container {
+    margin: 2rem 0;
+}
+
+.footer__bottom p {
+    text-align: center;
+    padding: 1rem 0;
 
 }
