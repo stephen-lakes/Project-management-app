@@ -345,13 +345,23 @@ main {
     margin-bottom: 1rem;
 }
 
-.form-group input {
+.form-group input,
+.form-group .btn-submit
+{
     border: 0;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 0.25rem;
     height: 30px;
-    width: 98%;
+    width: 100%;
     margin: 0.25rem 0;
+}
+
+.form-group .btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 footer {
