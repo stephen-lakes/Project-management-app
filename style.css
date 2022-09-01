@@ -121,7 +121,6 @@ nav ul li a.btn-secondary {
     border: none;
 }
 
-
 main {
     padding: 1rem 1rem 4rem 1rem;
     background-color: #fff;
@@ -290,12 +289,13 @@ main {
 .payments-options {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    
     flex-wrap: wrap;
 }
 
 .payments-options img {
     max-width: 125px;
+    margin: 0.2rem 0.5rem;
 }
 
 .reviews {
