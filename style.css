@@ -32,6 +32,7 @@ img {
 
 body {
     font-family: 'Poppins';
+    word-wrap: break-word;
     
 }
 
@@ -99,7 +100,6 @@ header{
 }
 
 .navbar-toggler:hover {
-    border: 0..25rem solid #16202A;
     background-color: #cbcbcc;
     cursor: pointer;
 }
@@ -141,7 +141,7 @@ main {
 .hero__CTA__group {
     width: 100%;
     display: flex;
-    /* gap: 0.5rem; */
+    flex-wrap: wrap;
 }
 
 .hero__CTA__group a.btn-primary {
@@ -201,10 +201,6 @@ main {
     padding: 20px;
 }
 
-.review {
-    margin-bottom: 1rem;
-}
-
 .plan {
     background-image: url('Assets/Images/Arc.png');
     background-repeat: no-repeat;
@@ -224,6 +220,9 @@ main {
     padding: 28px 0;
 }
 
+.plan__container {
+   
+}
 .plan__card {
     border: 1px solid #6c757d38;
     margin-bottom: 0.5rem;
@@ -289,7 +288,6 @@ main {
 .payments-options {
     display: flex;
     justify-content: center;
-    
     flex-wrap: wrap;
 }
 
@@ -408,6 +406,20 @@ footer {
     margin-bottom: 2rem;
 }
 
+.footer__bottom__logo__container {
+    margin: 2rem 0;
+}
+
+.footer__nav__group__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__nav__group__item {
+    padding: 0 1rem;
+}
+
 .footer__bottom ul li a {
     color: #fff;
 }
@@ -420,12 +432,51 @@ footer {
     padding: 0.3rem 0;
 }
 
-.footer__bottom__logo__container {
-    margin: 2rem 0;
-}
-
 .footer__bottom p {
     text-align: center;
     padding: 1rem 0;
 
 }
+
+
+
+@media screen and (max-width: 282px){
+    .hero__CTA__group a.btn-primary,
+    .try-gail a {
+        margin-bottom: 0.5rem;
+    }
+    header {
+        padding: 0;
+    }
+    .feature, .plan, .reviews {
+        padding: 0;
+    }    
+}
+
+
+/* TABLETS */
+@media screen and (min-width: 768px){
+    header {
+        flex-wrap: nowrap;
+        padding: 0 3rem;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-container {
+        display: block;
+    }
+
+    .nav-container nav ul {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav-container nav ul li:nth-of-type(1) {
+        margin-left: auto;
+    }
+    
+}
+
