@@ -220,9 +220,6 @@ main {
     padding: 28px 0;
 }
 
-.plan__container {
-   
-}
 .plan__card {
     border: 1px solid #6c757d38;
     margin-bottom: 0.5rem;
@@ -463,19 +460,19 @@ footer {
     .navbar-toggler {
         display: none;
     }
-
     .nav-container {
         display: block;
     }
-
     .nav-container nav ul {
         display: flex;
         align-items: center;
         gap: 1rem;
     }
-
     .nav-container nav ul li:nth-of-type(1) {
         margin-left: auto;
+    }
+    .hero {
+        display: ;
     }
     
 }
